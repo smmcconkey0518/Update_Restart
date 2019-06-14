@@ -1,5 +1,8 @@
 @echo off
-echo Updating and Shutting down device
+echo Updating...
+
+gpupdate 
+
 pause
-shutdown -r -t 0
-pause
+echo Goodbye.
+C:\Windows\system32\shutdown -s 
